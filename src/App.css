@@ -4,12 +4,12 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px;
+    margin: 0 auto;
 }
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +19,43 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+  .App {
+    margin-top: 25px;
+  }
+
+  .main {
+    width: 75%;
+    display: inline-block;
+  }
+
+  .aside {
+    width: 25%;
+    display: inline-block;
+  }
+
+  .main button, 
+  .aside button {
+    background: #132efe;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #132efe;
+    color: white;
+    font-size: 4rem;
+    margin: 2%;
+    padding: 5px;
+    flex-grow: 1;
+  }
+
+  .aside button {
+    margin-bottom: 15px;
+  }
+
+  #zero {
+    width: 240px;
+    border-radius: 100px;
   }
